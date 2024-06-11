@@ -1,8 +1,11 @@
 {
   "name": "mybankapp-pro-11",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
